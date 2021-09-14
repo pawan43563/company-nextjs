@@ -5,7 +5,7 @@ import Banner from "../components/Banner/Banner"
 import Head from 'next/head'
 
 let style1={
-    backgroundColor:"yellow",
+    backgroundColor:"lightblue",
     color:"black"
 }
 
