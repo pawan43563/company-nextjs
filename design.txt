@@ -1,0 +1,10 @@
+components
+    -- cs 
+        -- navbar
+        -- banner
+        -- footer
+
+pages
+    -- cs
+         will have staticprops and will make fetch request to backend
+    -- home page 

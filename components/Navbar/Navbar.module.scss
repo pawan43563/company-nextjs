@@ -1,0 +1,56 @@
+.navbarContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0px auto;
+    padding: 10px;
+    img{
+        width: 200px;
+        height: 40px;
+        margin-left: 100px;
+    }
+    ul{
+        font-size: 1.2rem;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 1.1rem;
+        margin-right: 100px;
+        li{
+            margin:1.1rem;
+            list-style: none;            
+        }
+    }
+    @media screen and (max-width:878px) {
+        img{
+            margin-left: 10px;
+            width: 150px;
+            height: 30px;
+        }
+        ul{
+            margin-right: 10px;
+            font-size: 1rem;
+        }
+    }
+    @media screen and (max-width:660px) {
+
+        ul{
+            display: none;
+        }
+        .menu{
+            display: block;
+        }
+    }
+}
+
+.menu{
+    display: none;
+    img{
+        width: 40px;
+        margin-right: 10px;
+    }
+}
+    

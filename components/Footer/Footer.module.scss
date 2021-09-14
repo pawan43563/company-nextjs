@@ -1,0 +1,31 @@
+.footer {
+    width: 100%;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img{
+        width:150px;
+    }
+}
+
+.socialLinks{
+    font-size: 2.4rem;
+    margin: 20px 10px;
+    width:50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-grow: 1;
+    :hover{
+        opacity: 0.8;
+    }
+}
+  
+
+
+.copyright{
+    text-align: center;
+}
+  
