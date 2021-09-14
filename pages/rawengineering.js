@@ -1,5 +1,5 @@
 import Navbar from "../components/Navbar/Navbar";
-import styles from "../styles/rawengineering.module.scss"
+import styles from '../styles/common.module.scss'
 import Footer from '../components/Footer/Footer'
 import Banner from "../components/Banner/Banner"
 import Head from 'next/head'
@@ -9,9 +9,7 @@ let style1={
     color:"white"
 }
 
-let bgstyle={
-    backgroundColor:"grey"
-}
+
 
 export default function RawEngineering({data}){
     let {RE}=data
@@ -25,7 +23,7 @@ export default function RawEngineering({data}){
         <div className={styles.container}>
             
             <Navbar data={RE}  style={style1} />
-            <Banner data={RE} style={bgstyle} />
+            <Banner data={RE} />
             <Footer data={RE["footerData"]} style={style1} />
         </div>
         </>

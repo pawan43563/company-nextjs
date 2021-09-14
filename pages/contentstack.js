@@ -1,4 +1,4 @@
-import styles from '../styles/contentstack.module.scss';
+import styles from '../styles/common.module.scss'
 import Navbar from '../components/Navbar/Navbar';
 import Footer from '../components/Footer/Footer'
 import Banner from "../components/Banner/Banner"
@@ -9,10 +9,7 @@ let csstyle={
     color:"white",
 }
 
-let bgstyle={
-    backgroundColor:"black",
-    color:"white"
-}
+
 
 let img={
     width: "200px",
@@ -30,7 +27,7 @@ export default function Contentstack({data}){
                 <link rel="icon" href="/cs.png" />
             </Head>
             <Navbar data={CS} style={csstyle} imagestyle={img}/>
-            <Banner data={CS} style={bgstyle} />
+            <Banner data={CS}  />
             <Footer data={CS["footerData"]} style={csstyle} />
         </div>
 

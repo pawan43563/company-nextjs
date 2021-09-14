@@ -1,4 +1,4 @@
-import styles from '../styles/surfboard.module.scss'
+import styles from '../styles/common.module.scss';
 import Navbar from "../components/Navbar/Navbar";
 import Footer from '../components/Footer/Footer'
 import Banner from "../components/Banner/Banner"
@@ -14,10 +14,7 @@ let img={
     height:"100px"
 }
 
-let bannerstyle={
-    backgroundColor:"#5DC9DD",
-    color:"black"
-}
+
 
 export default function surfboard({data}){
     let {SB}=data
@@ -29,7 +26,7 @@ export default function surfboard({data}){
                 <link rel="icon" href="/sb.png" />
             </Head>
             <Navbar data={SB}  style={style1} imagestyle={img}/>
-            <Banner data={SB} style={bannerstyle}/>
+            <Banner data={SB} />
             <Footer data={SB["footerData"]} style={style1} imagestyle={img} />
         </div>
     )
