@@ -1,4 +1,9 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Company-nextjs-ssr
+A Simple application where based on the selected company card that company's website will be shown.
+
+## Links
+[Netlify](https://elegant-murdock-ce5235.netlify.app/)
+
 
 ## Getting Started
 
