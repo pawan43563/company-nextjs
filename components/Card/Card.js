@@ -7,7 +7,7 @@ export default function Card({data}){
     return(
         <a href={`/${name_url}`} className={styles.card}>
             <h2>{name} &rarr;</h2>
-            <img src={bodylogo} />
+            <img src={bodylogo} alt="Company's logo"/>
             <div className={styles.info}>
                 <h3>{type}</h3>
                 <p>{description}</p>

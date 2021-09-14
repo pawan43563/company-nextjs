@@ -8,7 +8,7 @@ export default function Footer({data,style,imagestyle}){
     return(
         <>
             <div className={styles.footer} style={style}>
-                <img src={data["logo"]} style={imagestyle} />
+                <img src={data["logo"]} style={imagestyle} alt="Company's logo" />
                 <div className={styles.socialLinks}>
                     <FontAwesomeIcon icon={faFacebook}  />
                     <FontAwesomeIcon icon={faTwitter} />

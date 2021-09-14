@@ -8,7 +8,7 @@ export default function Navbar({data,style,imagestyle}){
     return(
         <>
             <div className={styles.navbarContainer} style={style}>
-                <img src={data["logo"]} style={imagestyle} />
+                <img src={data["logo"]} style={imagestyle} alt="logo"/>
                 <ul>
                     {
                         data["navLinks"].map((e,i)=>(
@@ -22,7 +22,7 @@ export default function Navbar({data,style,imagestyle}){
                     }
                 </ul>
                 <div className={styles.menu}>
-                    <img src="https://pawan43563.github.io/Images/menu-white.png" />
+                    <img src="https://pawan43563.github.io/Images/menu-white.png" alt="humburger menu"/>
                 </div>
             </div>
         </>

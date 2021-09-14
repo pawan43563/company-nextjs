@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Link from 'next/link'
 import styles from '../styles/Home.module.scss'
 import Card from '../components/Card/Card'
 import Footer from '../components/Footer/Footer'
@@ -27,7 +26,7 @@ export default function Home({data}) {
           Welcome
         </h1>
         <p className={styles.description}>
-          To our all in one company's website.
+          To our all in one company&apos; website.
         </p>
         <div className={styles.grid}>
           <Card data={CS} />
